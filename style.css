@@ -611,6 +611,25 @@ h1 {
     flex-basis: 100%;
     order: 1;
   }
+
+  .hero-art {
+    min-height: 330px;
+  }
+
+  .art-glow {
+    width: 270px;
+    height: 270px;
+  }
+
+  .orbit {
+    width: 340px;
+    height: 220px;
+  }
+
+  .orbit-two {
+    width: 370px;
+    height: 250px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -638,35 +657,49 @@ h1 {
   }
 
   .hero-art {
-    min-height: 355px;
+    min-height: 285px;
   }
 
   .art-glow {
-    width: 290px;
-    height: 290px;
+    width: 215px;
+    height: 215px;
   }
 
   .orbit {
-    width: 330px;
-    height: 220px;
+    width: 275px;
+    height: 175px;
   }
 
   .orbit-two {
-    width: 350px;
-    height: 250px;
+    width: 300px;
+    height: 205px;
+  }
+
+  .profile-card {
+    width: min(260px, 74vw);
   }
 
   .floating-note {
     right: -2px;
-    bottom: 35px;
+    bottom: 19px;
+    padding: 8px 10px;
+    font-size: 8px;
+  }
+
+  .floating-note strong {
+    font-size: 9px;
   }
 
   .decor-plus {
     left: 4px;
+    top: 31px;
+    font-size: 21px;
   }
 
   .decor-dots {
     right: 0;
+    top: 31px;
+    font-size: 24px;
   }
 
   .footer {
